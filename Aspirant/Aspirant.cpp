@@ -24,12 +24,13 @@ public:
     void Print() const
     {
         cout << "Name: " << name << endl
-            << "Age: " << age << endl;
+        cout << "Age: " << age << endl;
     }
 
     void Input()
     {
-        if (name != nullptr) {
+        if (name != nullptr) 
+        {
             delete[] name;
         }
         char buff[20];
